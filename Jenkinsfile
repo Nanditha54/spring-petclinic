@@ -4,7 +4,7 @@ pipeline {
         stage('vcs') {
             steps {
                 git url: 'https://github.com/Nanditha54/spring-petclinic.git',
-                    branch: 'declarative'
+                    branch: 'main'
             }
         }
         stage('package') {
